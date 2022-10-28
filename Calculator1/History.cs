@@ -26,5 +26,11 @@ namespace Calculator1
         {
 
         }
+
+        private void History_Load(object sender, EventArgs e)
+        {
+
+        }
+        
     }
 }

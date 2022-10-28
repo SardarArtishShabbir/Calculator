@@ -48,6 +48,7 @@
             this.Controls.Add(this.listBox1);
             this.Name = "History";
             this.Text = "History";
+            this.Load += new System.EventHandler(this.History_Load);
             this.ResumeLayout(false);
 
         }
