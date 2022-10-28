@@ -9,3 +9,4 @@ C:\Users\STAR COMPUTER\source\repos\Calculator1\Calculator1\obj\Debug\Calculator
 C:\Users\STAR COMPUTER\source\repos\Calculator1\Calculator1\obj\Debug\Calculator1.csproj.CoreCompileInputs.cache
 C:\Users\STAR COMPUTER\source\repos\Calculator1\Calculator1\obj\Debug\Calculator1.exe
 C:\Users\STAR COMPUTER\source\repos\Calculator1\Calculator1\obj\Debug\Calculator1.pdb
+C:\Users\STAR COMPUTER\source\repos\Calculator1\Calculator1\obj\Debug\Calculator1.History.resources

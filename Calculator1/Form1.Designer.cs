@@ -42,6 +42,9 @@
             this.txt_2ndValue = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txt_Answer = new System.Windows.Forms.TextBox();
+            this.lbl_last_operator = new System.Windows.Forms.Label();
+            this.btn_History = new System.Windows.Forms.Button();
+            this.btn_clear = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,7 +56,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(382, 61);
+            this.panel1.Size = new System.Drawing.Size(458, 61);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -71,9 +74,9 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 297);
+            this.panel2.Location = new System.Drawing.Point(0, 322);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(382, 50);
+            this.panel2.Size = new System.Drawing.Size(458, 47);
             this.panel2.TabIndex = 1;
             // 
             // label2
@@ -129,7 +132,7 @@
             // 
             this.btn_cal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_cal.Image = ((System.Drawing.Image)(resources.GetObject("btn_cal.Image")));
-            this.btn_cal.Location = new System.Drawing.Point(169, 252);
+            this.btn_cal.Location = new System.Drawing.Point(172, 269);
             this.btn_cal.Name = "btn_cal";
             this.btn_cal.Size = new System.Drawing.Size(101, 39);
             this.btn_cal.TabIndex = 8;
@@ -170,11 +173,43 @@
             this.txt_Answer.Size = new System.Drawing.Size(100, 20);
             this.txt_Answer.TabIndex = 12;
             // 
+            // lbl_last_operator
+            // 
+            this.lbl_last_operator.AutoSize = true;
+            this.lbl_last_operator.Location = new System.Drawing.Point(9, 295);
+            this.lbl_last_operator.Name = "lbl_last_operator";
+            this.lbl_last_operator.Size = new System.Drawing.Size(71, 13);
+            this.lbl_last_operator.TabIndex = 13;
+            this.lbl_last_operator.Text = "Last Operator";
+            // 
+            // btn_History
+            // 
+            this.btn_History.Location = new System.Drawing.Point(371, 285);
+            this.btn_History.Name = "btn_History";
+            this.btn_History.Size = new System.Drawing.Size(75, 23);
+            this.btn_History.TabIndex = 14;
+            this.btn_History.Text = "History";
+            this.btn_History.UseVisualStyleBackColor = true;
+            this.btn_History.Click += new System.EventHandler(this.btn_History_Click);
+            // 
+            // btn_clear
+            // 
+            this.btn_clear.Location = new System.Drawing.Point(290, 285);
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Size = new System.Drawing.Size(75, 23);
+            this.btn_clear.TabIndex = 15;
+            this.btn_clear.Text = "Clear";
+            this.btn_clear.UseVisualStyleBackColor = true;
+            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(382, 347);
+            this.ClientSize = new System.Drawing.Size(458, 369);
+            this.Controls.Add(this.btn_History);
+            this.Controls.Add(this.btn_clear);
+            this.Controls.Add(this.lbl_last_operator);
             this.Controls.Add(this.txt_Answer);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txt_2ndValue);
@@ -214,6 +249,9 @@
         private System.Windows.Forms.TextBox txt_2ndValue;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txt_Answer;
+        private System.Windows.Forms.Label lbl_last_operator;
+        private System.Windows.Forms.Button btn_History;
+        private System.Windows.Forms.Button btn_clear;
     }
 }
 
