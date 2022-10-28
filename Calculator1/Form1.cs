@@ -76,21 +76,22 @@ namespace Calculator1
                     MessageBox.Show("Input is not in valid format", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
-            public void Error()
-            {
-                txt_firstvalue.Clear();
-                txt_2ndValue.Clear();
-                txt_firstvalue.Focus();
-                txt_Answer.Clear();
-                lbl_last_operator.Text = "Last Operator:" + HistoryMaintain;
-                HistoryList.Add(HistoryMaintain);
-            }
+           
 
+        }
+        public void clear()
+        {
+            txt_firstvalue.Clear();
+            txt_2ndValue.Clear();
+            txt_firstvalue.Focus();
+            txt_Answer.Clear();
+            lbl_last_operator.Text = "Last Operator:" + HistoryMaintain;
+            HistoryList.Add(HistoryMaintain);
         }
 
         private void btn_clear_Click(object sender, EventArgs e)
         {
-            Error();
+            clear();
         }
 
         private void btn_History_Click(object sender, EventArgs e)
