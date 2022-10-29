@@ -45,6 +45,7 @@
             this.lbl_last_operator = new System.Windows.Forms.Label();
             this.btn_History = new System.Windows.Forms.Button();
             this.btn_clear = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,7 +57,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(458, 61);
+            this.panel1.Size = new System.Drawing.Size(533, 61);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -74,9 +75,9 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 322);
+            this.panel2.Location = new System.Drawing.Point(0, 352);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(458, 47);
+            this.panel2.Size = new System.Drawing.Size(533, 47);
             this.panel2.TabIndex = 1;
             // 
             // label2
@@ -132,7 +133,7 @@
             // 
             this.btn_cal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_cal.Image = ((System.Drawing.Image)(resources.GetObject("btn_cal.Image")));
-            this.btn_cal.Location = new System.Drawing.Point(172, 269);
+            this.btn_cal.Location = new System.Drawing.Point(194, 277);
             this.btn_cal.Name = "btn_cal";
             this.btn_cal.Size = new System.Drawing.Size(101, 39);
             this.btn_cal.TabIndex = 8;
@@ -176,7 +177,7 @@
             // lbl_last_operator
             // 
             this.lbl_last_operator.AutoSize = true;
-            this.lbl_last_operator.Location = new System.Drawing.Point(9, 295);
+            this.lbl_last_operator.Location = new System.Drawing.Point(9, 325);
             this.lbl_last_operator.Name = "lbl_last_operator";
             this.lbl_last_operator.Size = new System.Drawing.Size(71, 13);
             this.lbl_last_operator.TabIndex = 13;
@@ -184,7 +185,7 @@
             // 
             // btn_History
             // 
-            this.btn_History.Location = new System.Drawing.Point(371, 285);
+            this.btn_History.Location = new System.Drawing.Point(422, 285);
             this.btn_History.Name = "btn_History";
             this.btn_History.Size = new System.Drawing.Size(75, 23);
             this.btn_History.TabIndex = 14;
@@ -194,7 +195,7 @@
             // 
             // btn_clear
             // 
-            this.btn_clear.Location = new System.Drawing.Point(290, 285);
+            this.btn_clear.Location = new System.Drawing.Point(318, 285);
             this.btn_clear.Name = "btn_clear";
             this.btn_clear.Size = new System.Drawing.Size(75, 23);
             this.btn_clear.TabIndex = 15;
@@ -202,11 +203,21 @@
             this.btn_clear.UseVisualStyleBackColor = true;
             this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(396, 136);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "label6";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(458, 369);
+            this.ClientSize = new System.Drawing.Size(533, 399);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btn_History);
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.lbl_last_operator);
@@ -252,6 +263,7 @@
         private System.Windows.Forms.Label lbl_last_operator;
         private System.Windows.Forms.Button btn_History;
         private System.Windows.Forms.Button btn_clear;
+        private System.Windows.Forms.Label label6;
     }
 }
 
